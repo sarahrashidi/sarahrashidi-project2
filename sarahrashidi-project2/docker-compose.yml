@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+    falsk-app:
+        build:
+            context: .
+        image: "greenplus/sarahrashidi"
+        container_name: API
+        ports:
+            - 5000:5000
